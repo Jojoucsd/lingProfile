@@ -1,0 +1,143 @@
+extends layout
+
+block content
+  
+  //
+    Add Content here
+    ==================================================
+  #maincontent.container.marketing
+    //
+      Jumbotron
+      ==================================================
+    .jumbotron.bpe-jumbotron
+
+      br
+      img.img-circle(src='../assets/img/lingPort.jpg', alt='Me')
+    
+      p
+        | Hi, how are you! My name is Ling Lu, a Chinese American immigrant who lived in the San Francisco Bay Area for over a decade. I am a person who love the back-end and database. My New Year resolution is to learn mroe about Big Data.
+    // /.col-lg-4
+    .col-lg-4
+      img.img-circle(src='../assets/img/Safeway-Logo.jpg', alt='FTbn')
+      h2 Salesman
+      p
+        | I have 8 years sales and retail experiences working in a supermarket. During my time in Safeway, I worked as assistant manager in Deli and head sales over the bakery. In addition, I oversee Halloween candy sale as general merchant and the warehouse inventory control.
+  
+    // /.col-lg-4
+    // /.col-lg-4
+    .col-lg-4
+      img.img-circle(src='../assets/img/testlio.png', alt='FTbn')
+      h2 Tester
+      p
+        | After leaving the retail store, I start self learning Javascript and during one of the meetup. I met one of the founder of Testlio and I was invited for an Tester interview. Ever since the interview, I have been working for Testlio for exploration and automated testing.
+      
+    // /.col-lg-4
+    // /.col-lg-4
+    .col-lg-4
+      img.img-circle(src='../assets/img/general-assembly.jpg', alt='FTbn')
+      h2 Developer
+      p
+        | In 2016 Oct, I joined General Assembly's Web Developer Immersion program and start my systemtic programing class. During the three months, I have learned the skills of individual programing and working as a team. GA introduced me with the idea being resourcefulness and independent. 
+      
+    // /.col-lg-4
+    
+  .container.marketing
+    // /.row
+    // START THE FEATURETTES
+    hr.featurette-divider
+    .row.featurette
+      .col-md-7
+        h4.featurette-heading
+          | TwilioSocketChat 
+          span.h4.text-muted A Medical Help Desk App.
+        p.lead
+          | A chatroom app intended to for medical/health field. Which use Twilio’s API and web socket concept to turn any laptop/desktop into a SMS machine that can commute to not just smart phone but any SMS device.
+          #[a(href="https://twiliosocketchat.herokuapp.com/") Twilio-Socket-Chat] 
+
+      .col-md-5
+        br
+        br
+        br
+        br
+        br
+        br
+        img.featurette-image.img-responsive(src='../assets/img/banner-support.jpg', alt='Leaf')
+    hr.featurette-divider
+    .row.featurette
+      .col-md-5
+        br
+        br
+        br
+        br
+        br
+        img.featurette-image.img-responsive(src='../assets/img/HoodSf.png')
+      .col-md-7
+        h4.featurette-heading
+          | HoodSf
+          span.h4.text-muted Blog your neighborhood.
+        p.lead
+          | A CRUT app using the classic feature of Ruby on Rails to explored the inner beauty of San Francisco neighborhood. Key feature of technology applied is filtering and authentication and authorization.
+          #[a(href="https://hood-sf.herokuapp.com.herokuapp.com/") Hood-Sf] 
+    hr.featurette-divider
+    .row.featurette
+      .col-md-7
+        h4.featurette-heading
+          | High-Five 
+          span.h4.text-muted to people around you
+        p.lead
+          | A ruby on rails app that is mobile responsive that allow people to receive compliments in public area. Google Map, geo locator, active notification and search users current locations are the highlight of this app. #[a(href="https://high-five-app.herokuapp.com/") High-Five]
+      .col-md-5
+        br
+        br
+        br
+        br
+        br
+        img.featurette-image.img-responsive(src='../assets/img/High-Five.png', alt='Grapefruit')      
+    hr.featurette-divider
+    .row.featurette
+      .col-md-5
+        br
+        br
+        br
+        br
+        br
+        img.featurette-image.img-responsive(src='../assets/img/runner.jpg', alt='Jelly')
+      .col-md-7
+        h4.featurette-heading
+          | D2R 
+          span.h4.text-muted Connect with your non-profit
+        p.lead
+          | A fully functional Node.js web platform for non-profit organizations and volunteers to reconnect and contribute to communities. #[a(href="https:d2r.herokuapp.com/") D2R] 
+    hr.featurette-divider  
+    // /END THE FEATURETTES
+
+    // FOOTER
+    footer
+      p.pull-right
+        | &copy; 2015 Lu, Ling. &middot; 
+        a(href='#') Privacy
+        |  &middot; 
+        a(href='#') Terms
+        |  &middot; 
+        a(href='#') Back to top
+      p
+        address
+          strong Ling Lu.
+          br
+          | &#x9;    53 Cliffside Drive
+          br
+          | &#x9;    Daly City, CA, United States, 94015
+          br
+          abbr(title='Phone') Phone:
+          |  (415) 812 6840
+          br
+          abbr(title='Email') Email:
+          |  #[a(href="mailto:jojoucsd@gmail.com") jojoucsd@gmail.com]
+          br
+          abbr(title='Email') Github:
+          |  #[a(href="https://github.com/Jojoucsd") jojoucsd]
+          br
+          abbr(title='Email') LinkedIn:
+          |  #[a(href="https://www.linkedin.com/in/ling-lu-331a23b0?trk=nav_responsive_tab_profile_pic") Ling Lu]
+          br
+  // /.container
